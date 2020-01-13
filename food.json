@@ -1,0 +1,160 @@
+{
+    "items": [
+      {
+          "id": "1",
+          "coverImg": "../img/a-special-jollof.jpg",
+          "restaurant": "Rodina Foods",
+          "featured": true,
+          "time": "30 - 40mins",
+          "state": "Lagos",
+          "city":"ikorodu",
+          "location":"Uniben Girls Hostel A",
+        
+          "food": [
+              { 
+                  "id": "xoxo",
+                 "filter":"protein",
+
+               "title": "Ewaegoin beans ",
+               "price": 1000,
+               "image":"../img/a-chin-chin.jpg"
+          },
+              { 
+                "id": "sajhjkas",
+              "filter":"vegetables",
+
+               "title": "Salad",
+               "price": 500,
+               "image":"../img/a-salad.jpg"
+          },
+              { 
+                "id": "sjkas",
+              "filter":"snacks",
+
+               "title": "African Bole",
+               "price": 100,
+               "image":"../img/a-bole.jpg"
+          },
+              { 
+                "id": "sjs",
+              "filter":"rice",
+
+               "title": "Naija Jollof Rice",
+               "price": 100,
+               "image":"../img/a-jollof-rice.jpg"
+          },
+              { 
+                "id": "siduirier",
+              "filter":"soup",
+
+               "title": "Bitterleaf Soup Specials",
+               "price": 1000,
+               "image":"../img/a-bitterleaf-soup.jpg"
+          },
+              { 
+                "id": "sidrier",
+              "filter":"protein",
+
+               "title": "Beans Pottage",
+               "price": 650,
+               "image":"../img/a-bean-poriddge.jpg"
+          },
+          
+              { 
+                "id": "siier",
+              "filter":"soup",
+
+               "title": "Banga Soup",
+               "price": 850,
+               "image":"../img/a-banga-soup.jpg"
+          },
+              { 
+                "id": "s8348438er",
+              "filter":"snacks",
+
+               "title": "Chin Chin",
+               "price": 850,
+               "image":"../img/a-chin-chin.jpg"
+          }
+        ]
+      },
+      {
+          "id": "10xxms",
+          "restaurant": "KFC",
+          "coverImg": "../img/a-banga-soup.jpg",
+          "featured": true,
+          "time": "30 - 40mins",
+          "state": "Kano",
+          "city": "kano main city",
+          "food": [{
+               "filter":"other",
+               "title": "Rice",
+               "price": 4000,
+               "image":"../img/rice.jpg"
+          }]
+      },
+      {
+          "id":"2",
+          "restaurant": "Kilimanjaroo",
+          "coverImg": "../img/a-bole.jpg",
+          "featured": true,
+          "time": "30 - 40mins",
+          "state":"Oyo state",
+          "city":"ibadan",
+          "food": [{
+               "title": "Banga Soup",
+               "filter":"soup",
+               "price": 1000,
+               "image":"../img/soup-2.jpg"
+          }]
+      },
+      {
+          "id": "3",
+          "restaurant": "Rodina Foods",
+          "coverImg": "../img/a-special-plantian.jpg",
+          "featured": true,
+          "time": "30 - 40mins",
+          "state": "Abuja FCT",
+          "city": "Maitama",
+          "food": [{
+               "title": "Egusi Soup",
+               "filter":"soup",
+               "price": 4000,
+               "image":"../img/egusi-2.jpg"
+          }]
+      },
+      {
+          "id": "4",
+          "restaurant": "Rodina Foods",
+          "coverImg": "../img/a-stew.jpg",
+          "featured": false,
+          "state":"Kwara",
+          "city":"ilorin",
+          "time": "30 - 40mins",
+          "food": [{
+               "filter":"snacks",
+               "title": "Chin chin",
+               "price": 1000,
+               "image":"../img/chin-chin.jpg"
+          }]
+      },
+      {
+          "id": "5",
+          "restaurant": "Biggs Foods",
+          "coverImg": "../img/a-grilled-fish-tilapia.jpg",
+          "featured": false,
+          "state":"Lagos",
+          "city":"ikeja",
+          "time": "30 - 40mins",
+          "food": [{
+               "title": "Rice",
+               "filter":"other",
+               "price": 4000,
+               "image":"../img/rice.jpg"
+          }]
+      }
+    
+     
+    ]
+  }
+  

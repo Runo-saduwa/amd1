@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet"> 
+ <!-- font awesome -->
+ <link rel="stylesheet" href="css/all.css">
+
+  <title>Restaurants</title>
+</head>
+<body>
+
+
+      
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+                <div class="container">
+                    <section>
+                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                             <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <a class="navbar-brand" href="index.html">AMDfooddeliveries</a>
+                    </section>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+                                  <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="sign-in.html">Login/Logout</a>
+                                  </li>
+                                </ul>
+                          </div>
+                    <div class="cart-btn mr-4 my-1">
+                            <span class="nav-icon">
+                              <i class="fas fa-cart-plus"></i>
+                            </span>
+                            <div class="cart-items">0</div>
+                          </div>
+                    </div>
+                  </nav>
+
+
+                  <header>
+                  <section class="cover">
+                    <img src="img/a-naija-buffet.jpg" class="res-cover-img" alt="">
+                    <div class="restaurant-details d-flex align-items-center">
+                       
+                     <div class="px-4">
+                       
+                        <h1 class="restaurant-name">Rodina Foods <span class="preparation-time mb-5">
+                            30 - 40min
+                          </span> </h1>
+                        <h6>
+                          <span class="minOrder">Min. order ₦650.00</span>
+                          <i class="dot fa fa-circle" aria-hidden="true"></i>
+                          <span class="minDeliveryFee">Min. delivery fee ₦300.00</span>
+                          <i class="dot fa fa-circle" aria-hidden="true"></i>
+                           <!-- <span class="moreInfo"><a href="">More info</a></span>
+                           <i class="dot fa fa-circle" aria-hidden="true"></i> -->
+                         </h6>
+                     </div>
+                    </div>
+                  </section>
+                  </header>
+  
+  
+
+
+ 
+  <!-- Main -->
+
+
+  
+  <main class="custom-container">
+      <!-- <h1 class="text-center section-header my-5"></h1> -->
+
+       <!-- Filter buttons -->
+       <!-- <div class="row">
+          <div class="col-lg-8 mx-auto d-flex justify-content-around sortBtn flex-wrap">
+              <a href="#" class="btn btn-yellow text-uppercase filter-btn m-2" data-filter="all">
+                  all
+              </a>
+              <a href="#" class="btn btn-yellow text-uppercase filter-btn m-2" data-filter="soup">
+                  soup
+              </a>
+               <a href="#" class="btn btn-yellow text-uppercase filter-btn m-2" data-filter="drinks">
+                  Drinks
+              </a>  
+              <a href="#" class="btn btn-yellow text-uppercase filter-btn m-2" data-filter="protein">
+                  protein
+              </a>             
+                      
+          </div>
+      </div> -->
+
+         <div class="row">
+           <div class="col-lg-6 col-10 mx-auto">
+            <div class="input-group restaurants-search my-5">
+              <select class="custom-select restaurants-search" id="inputGroupSelect04" aria-label="Example select with button addon">
+                <option selected>Choose...</option>
+                <option value="all">all</option>
+                <option value="soup">soup</option>
+                <option value="meat">meat</option>
+                <option value="drinks">drinks</option>
+                <option value="swallow">swallow</option>
+                <option value="snacks">snacks</option>
+                <option value="protein">protein</option>
+              </select>
+              <div class="input-group-append">
+                <button class="btn text-white search-box selectButton" type="button">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </div>
+           </div>
+         </div>
+
+    <!-- Section -->
+      <section class="featured-delicacies-section">
+          <div class="resprod-center row mx-auto align-items-center justify-content-center featured-delicacy-items" id="featured-delicacy-items">
+           <!-- Products goes here -->
+          </div>
+        </section>
+        <!-- /Section -->
+  </main>
+
+  <!-- /Main -->
+
+  <!-- Cart Overlay -->
+
+   <!-- cart -->
+   <div class="cart-overlay">
+        <div class="cart">
+          <span class="close-cart"><i class="far fa-window-close"></i></span>
+
+          <div class="card bg-danger h-5 mb-3">
+            <div class="d-flex justify-content-between">
+              <span class="address m-3">24, Church road, Effurun</span>
+              <a href="" class="edit m-3">Edit</a>
+            </div>
+            <div class="d-flex justify-content-between mt-5">
+             <span class="time-circle m-3 d-flex justify-content-center align-items-center ">
+                
+                        10mins
+        
+             </span>
+             <a href="" class="edit-time mt-4 mx-3">Choose time</a>
+            </div>
+          </div>
+          <h2>your cart</h2>
+          <div class="cart-content">
+            <!-- cart item -->
+            <!-- <div class="cart-item">
+              <img src="./images/product-1.jpeg" alt="product" />
+              <div>
+                <h4>queen bed</h4>
+                <h5>$9.00</h5>
+                <span class="remove-item">remove</span>
+              </div>
+              <div>
+                <i class="fas fa-chevron-up"></i>
+                <p class="item-amount">
+                  1
+                </p>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div> -->
+            <!-- cart item -->
+          </div>
+          <div class="cart-footer d-flex justify-content-between">
+            <h3>Total :</h3> <h3 class="cart-total">0</h3>
+          </div>
+       
+
+          <div class="cart-footer-2 row justify-content-center mb-5">
+                <button class="clear-cart btn btn-lg mx-2 px-4">clear cart</button>
+                <form>
+                    <script src="https://js.paystack.co/v1/inline.js"></script>
+                    <button class="btn btn-lg px-4" type="button" onclick="payWithPaystack()"> Check Out </button> 
+                  </form>
+          </div>
+        </div>
+
+       
+      </div>
+
+  <!-- /Cart Overlay -->
+   
+
+
+  <!-- Footer -->
+
+  
+  <footer class="p-5">
+      <div class="row">
+        <div class="col-md-4">
+           <h6 class="text-center"> &copy; <a class="footer-link" href="index.html">AMDfooddeliveries</a></h6>
+        </div>
+      </div>
+</footer>
+
+  <!-- /Footer -->
+
+  <!-- jquery -->
+ <script src="js/jquery-3.3.1.min.js"></script>
+ <!-- bootstrap js -->
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <!-- script js -->
+ <script src="js/restaurant.js"></script>
+
+
+
+<script>
+    function payWithPaystack(){
+      var handler = PaystackPop.setup({
+        key: 'pk_test_f6b6bbcb7be41d00a8573410336e166a67bae98d',
+        email: 'customer@email.com',
+        amount: 1000,
+        currency: "NGN",
+        ref: ''+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
+        firstname: 'Stephen',
+        lastname: 'King',
+        // label: "Optional string that replaces customer email"
+        metadata: {
+           custom_fields: [
+              {
+                  display_name: "Mobile Number",
+                  variable_name: "mobile_number",
+                  value: "+2348012345678"
+              }
+           ]
+        },
+       
+        callback: function(response){
+            // alert('success. transaction ref is ' + response.reference);
+             const orders = localStorage.getItem('cart');
+             const price = JSON.parse(orders).reduce((sum, order) => {
+               return sum + order.price
+             },0)
+             console.log(price)
+            $.ajax({
+             
+            url:'http://www.yoururl.com/file.php?reference=' + response.reference,
+            method: 'post',
+            success: function (data) {
+             //Do whatever you like
+           
+             localStorage.setItem('cart', JSON.stringify([]));
+             $.ajax({
+             url:'/orders' ,
+             data: {orders, price},
+             method: 'post',
+              success: function (data) {
+              //redirect to dashboard
+              console.log(orders)
+             
+             alert('transaction successful')
+       
+        window.location.href = '/orders';
+    }
+  })
+
+    }
+  })
+        }
+        ,
+        onClose: function(){
+            alert('window closed');
+        }
+      });
+      handler.openIframe();
+    }
+  </script>
+	
+  
+</body>
+</html>
+
